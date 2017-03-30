@@ -1,5 +1,6 @@
-var mongoose = require('mongoose');
-Schema = mongoose.Schema;
+var mongoose = require('mongoose'),
+    Schema = mongoose.Schema;
+
 var tvshowSchema = new Schema({
     title: { type: String },
     year: { type: Number },
